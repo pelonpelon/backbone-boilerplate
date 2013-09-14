@@ -1,0 +1,35 @@
+{
+  "name": "backbone-boilerplate",
+  "version": "1.0.0-wip",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "bbb": "~0.2.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-cssmin": "~0.6.1",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-processhtml": "~0.1.0",
+    "grunt-karma": "~0.5.1",
+    "karma-jasmine": "~0.0.3",
+    "karma-mocha": "~0.0.4",
+    "karma-qunit": "~0.0.3",
+    "karma-phantomjs-launcher": "~0.0.1"
+  },
+  "peerDepenencies": {
+    "grunt-cli": "*",
+    "bower": "*",
+    "generator-bbb": "*"
+  },
+  "scripts": {
+    "postinstall": "bower install -s"
+  },
+  "readme": "![Boilerplate](https://github.com/backbone-boilerplate/backbone-boilerplate/raw/assets/header.png)\n\nBackbone Boilerplate\n====================\n\nThis boilerplate is the product of much research and frustration.  Existing\nboilerplates freely modify Backbone core, lack a build process, and are very\nprescriptive; Backbone Boilerplate changes that.\n\nThe Backbone Boilerplate is a way of organizing a web application with some\nopinionated defaults: such as Backbone, Lo-Dash, jQuery, RequireJS, Bower,\nGrunt, and the HTML5 Boilerplate styles.\n\nOrganize your application with a logical file structure, develop your\nModels/Collections/Views/Routers inside modules, and build knowing you have\nefficient code that will not bottleneck your users.\n\nThanks to our\n[Contributors](https://github.com/backbone-boilerplate/backbone-boilerplate/contributors)!  Special Thanks to: [cowboy](http://github.com/cowboy),\n[iros](http://github.com/iros), [nimbupani](http://github.com/nimbupani),\n[wookiehangover](http://github.com/wookiehangover), and\n[jugglinmike](http://github.com/jugglinmike) for helping me create this project.  Extra Special Thanks to: [Paul Guinan](http://bigredhair.com/work/paul.html)\nfor giving me usage rights to his fantastic Boilerplate character.\n\n## Documentation ##\n\nView the Backbone Boilerplate documentation here:\n\n[GitHub Wiki](https://github.com/backbone-boilerplate/backbone-boilerplate/wiki)\n\n## Getting started ##\n\nThe easiest way to get started is to install Git and clone the repository:\n\n``` bash\n# Make a project directory and enter it.\nmkdir my-project ; cd my-project\n\n# Using Git, fetch only the latest commits.  You won't need the full history\n# for your project.\ngit clone --depth 1 git@github.com:backbone-boilerplate/backbone-boilerplate.git .\n```\n\nYou will need to download and install [Node.js](http://nodejs.org/) if you want\nto use the commands in the following sections.\n\n## Updating dependencies ##\n\nThird party packages may update independently from this main repo, so it's a\ngood idea to update after fetching.  There are two different package managers\nthat you need to install and call update on.\n\n``` bash\n# Install Bower.  Depending on your user account you may need to gain\n# elevated privileges using something like `sudo`.\nnpm install bower -gq\n\n# Install NPM and Bower dependencies (Bower is hooked up in package.json).\nnpm install -q\n```\n\n## Build process ##\n\nThe build process consists of numerous Grunt plugin tasks that work together\nto optimize your application.\n\n``` bash\n# Make sure you install grunt-cli globally.  Depending on your user account you\n# may need to gain elevated privileges using something like `sudo`.\nnpm install grunt-cli -gq\n\n# To run the build process, run the default Grunt task.\ngrunt\n\n# To test that the build process works.\ngrunt server:release\n```\n\n## License ##\nCopyright (c) 2013 Tim Branyen (@tbranyen)  \nLicensed under the MIT license.\n",
+  "readmeFilename": "README.md",
+  "description": "![Boilerplate](https://github.com/backbone-boilerplate/backbone-boilerplate/raw/assets/header.png)",
+  "_id": "backbone-boilerplate@1.0.0-wip",
+  "dist": {
+    "shasum": "2e92907fad8e9596d2ff0d8559026baa8ccdc695"
+  },
+  "_from": "backbone-boilerplate@",
+  "_resolved": "https://registry.npmjs.org/backbone-boilerplate/-/backbone-boilerplate-1.0.0-wip.tgz"
+}
